@@ -35,6 +35,7 @@ namespace WebApplication1.Controllers
             {
                 db.Categories.Add(obj);
                 db.SaveChanges();
+                TempData["success"] = "Category Added Successfully";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -65,6 +66,7 @@ namespace WebApplication1.Controllers
             {
                 db.Categories.Update(obj);
                 db.SaveChanges();
+                TempData["success"]="Category Edited Successfully";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -95,6 +97,7 @@ namespace WebApplication1.Controllers
 
             db.Categories.Remove(obj);
             db.SaveChanges();
+            TempData["success"] = "Category Deleted Successfully";
             return RedirectToAction("Index");
 
 
