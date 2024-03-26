@@ -26,6 +26,10 @@ namespace WebApplication1.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Category obj)
         {
+            if(obj?.Name == obj?.DisplayOrder?.ToString())
+            {
+                ModelState.AddModelError("CustomError", "Name cannot be exactly the Display Order");
+            }
             if (ModelState.IsValid)
             {
                 db.Categories.Add(obj);
