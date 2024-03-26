@@ -21,5 +21,14 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Category obj)
+        {
+            db.Categories.Add(obj);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
