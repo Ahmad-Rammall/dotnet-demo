@@ -16,5 +16,10 @@ namespace WebApplication1.Controllers
             IEnumerable<Category> objCategoryList = db.Categories;
             return View(objCategoryList);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }

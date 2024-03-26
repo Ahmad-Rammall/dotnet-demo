@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6X8xtgqEYAfO/s4sShMzDE0Rc5rzyBo4jehkAHrO7fU=",
+  "Hash": "NQ/5iFa6bW30z2hjhU+uG5+9J34o6umoIZTDxM5fHJY=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\thinkpad\\Desktop\\projects\\WebApplication1\\WebApplication1\\wwwroot\\css\\Theme.css",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thinkpad\\Desktop\\projects\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "css/Theme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Theme.css"
     },
     {
       "Identity": "C:\\Users\\thinkpad\\Desktop\\projects\\WebApplication1\\WebApplication1\\wwwroot\\favicon.ico",
